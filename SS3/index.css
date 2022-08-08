@@ -1,0 +1,41 @@
+p {
+  color: blue;
+}
+
+body p:nth-child(2) {
+  color: red;
+}
+
+/* khai báo lớp trong css: sử dụng dấu "." */
+.red {
+  color: red;
+}
+
+.background_blue {
+  background-color: rgb(30, 166, 200);
+  width: fit-content;
+}
+
+/* khai báo lớp trong css: sử dụng dấu "#" */
+#demo {
+  width: fit-content;
+  background-color: chocolate;
+  border-radius: 10px;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: 10px;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+}
