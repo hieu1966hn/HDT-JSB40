@@ -24,10 +24,15 @@ body p:nth-child(2) {
 }
 
 .container {
+  height: 100vh;
   border: 1px solid black;
   display: flex;
   /* flex-direction: row; */
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+
 }
 
 .container div {
