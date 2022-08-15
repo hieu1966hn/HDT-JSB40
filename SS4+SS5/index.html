@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Band Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Nhúng link google font Montserrat  -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation (Stays on Top) -->
+  <div class="nav">
+    <a href="#home" class="navbar-item">Home</a>
+    <a href="#about" class="navbar-item">About</a>
+    <a href="#members" class="navbar-item">Members</a>
+    <a href="#contact" class="navbar-item">Contact</a>
+    <a href="https://www.youtube.com/">Youtube</a>
+  </div>
+
+
+  <!-- phần home bọc toàn bộ đoạn code dưới đây -->
+  <div id="home">
+
+    <img class="slides" src="./images/img_ch.jpg" alt="Not found">
+
+    <!-- About -->
+    <div id="about" class="padding-32">
+      <h2 class="center">The Band</h2>
+      <p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, temporibus
+        voluptate fugiat mollitia officiis laudantium quos vitae? Qui iusto odio beatae debitis, autem doloribus sed.
+        Tempore unde at distinctio voluptas.</p>
+    </div>
+
+    <!-- Members -->
+    <div id="members">
+      <h2 class="center">Band Members</h2>
+      <!-- Khung to bọc 3 ảnh -->
+      <div class="row">
+        <div class="third">
+          <img src="./images/img_bandmember.jpg" alt="Not Found">
+        </div>
+        <div class="third">
+          <img src="./images/img_bandmember.jpg" alt="Not Found">
+        </div>
+        <div class="third">
+          <img src="./images/img_bandmember.jpg" alt="Not Found">
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <!-- Contact -->
+    <div id="contact" class="center">
+      <h2 class="center">CONTACT</h2>
+      Chicago, US <br>
+      Phone: +00 151515 <br>
+      Email: mail@mail.com <br>
+      <p><i>Fan? Drop a note!</i></p>
+
+      <form>
+        <input class="w3-input" type="text" placeholder="Name" required>
+        <input class="w3-input" type="text" placeholder="Email" required>
+        <input class="w3-input" type="text" placeholder="Message" required>
+        <br>
+        <button class="w3-button w3-black">SEND</button>
+      </form>
+
+      <br>
+
+      <img src="./images/map.jpg" class="w3-image" alt="Not found" width="100%">
+
+      <p class="center padding-32">Powered by <a href="#">Hieu's css</a></p>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

@@ -6,6 +6,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 
@@ -54,4 +55,52 @@ h2 {
   font-size: 30px;
   font-weight: 100;
   margin: 10px 0px;
+}
+
+
+/* Members */
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.third {
+  width: 20%;
+}
+
+.third img {
+  width: 100%;
+}
+
+
+/* Contact */
+.w3-input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 8px;
+}
+
+.w3-black {
+  color: white !important;
+  background-color: #000 !important;
+}
+
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  /* trên/dưới trái/phải */
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.w3-button:hover, .w3-black:hover {
+  color: #000 !important;
+  background-color: rgb(184, 178, 178) !important;
 }
