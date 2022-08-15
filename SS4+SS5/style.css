@@ -9,11 +9,18 @@
   text-decoration: none;
 }
 
+/* giúp trang web scroll mượt mà */
+html {
+  scroll-behavior: smooth;
+}
 
 .nav {
   background-color: black;
   height: 50px;
 
+  /* position: fixed */
+  position: fixed;
+  width: 100%;
 }
 
 .navbar-item {

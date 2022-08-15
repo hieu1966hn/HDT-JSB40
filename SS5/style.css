@@ -1,0 +1,26 @@
+/* style relative */
+.relative {
+  background-color: blueviolet;
+  width: fit-content;
+  position: relative;
+
+  /* thuộc tính đi kèm của relative */
+  /* left: 1500px; */
+  top: 50px;
+  left: 30px;
+}
+
+
+/* style absolute */
+.moc {
+  position: relative;
+}
+
+.absolute {
+  background-color: brown;
+  width: fit-content;
+  position: absolute;
+  top: 0px;
+  /* left: 96%; */
+
+}
